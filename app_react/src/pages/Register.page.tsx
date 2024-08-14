@@ -1,8 +1,9 @@
+import { RegisterForm } from '@/components/RegisterForm';
 import styles from './Register.module.css';
 
 const RegisterPage = () => (
   <div className={styles.register}>
-    <h1>Register</h1>
+    <RegisterForm />
   </div>
 );
 

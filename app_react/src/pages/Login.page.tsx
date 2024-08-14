@@ -1,11 +1,9 @@
-import { NavLink } from 'react-router-dom';
 import styles from './Login.module.css';
+import { LoginForm } from '@/components/LoginForm';
 
 const LoginPage = () => (
   <div className={styles.login}>
-    <h1>Login</h1>
-
-    <NavLink to="/register">Registrate</NavLink>
+    <LoginForm />
   </div>
 );
 
